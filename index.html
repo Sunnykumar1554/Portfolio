@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunny - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400&family=Poppins:wght@400;700&family=Roboto&family=Work+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="webstyle.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dark Mode Example</title>
+</head>
+<body>
+    <div class="background">
+    
+    
+        <header>
+            <nav>
+                <img class="a-top" src="a.png" alt="">
+                <div class="left">Sunny Portfolio</div>
+                <div calss="right">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="/">About</a></li>
+                        <li><a href="/">Services</a></li>
+                        <li><a href="/">Projects</a></li>
+                        <li><a href="/">Contact Me</a></li>
+                    </ul>
+                </div>
+                
+            </nav>
+        </header>
+        <section class="banner"></section>
+        <script type="text/javascript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("nav");
+                header.classList.toggle("sticky", window.scrollY > 0)
+            })
+        </script>
+
+        <main>
+            
+            
+
+
+            
+        
+                <section id="home" class="firstSection"> 
+                    <div class="leftSection">
+                        Hi,My name is <span class="purple">Sunny</span> 
+
+                        <div>and I am a passionate</div>
+                        <span id="element"></span>
+                        <div class="buttons">
+                            <button class="btn">Download Resume</button>
+                            <button class="btn"><a href="https://github.com/Sunnykumar1554" target="_blank">GitHub</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="rightSection">
+                        <img src="bg.png.png" alt="">
+                    </div>
+
+                </section>
+                <hr>
+
+                <section class="secondSection">
+
+
+                </section>
+
+
+            </section>
+        </div>
+
+    </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sunny's Developer Portfolio</h3>
+
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+
+            </div>
+            <div class="footer-forth">
+
+            </div>
+        </div>
+        <div class="footer-rights">
+           Copyright &#169; sunnypotfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Vedio Editor','Python Programmer','Graphic Designer'],
+          typeSpeed: 100,
+        });
+      </script>
+      
+
+</body>
+</html>
